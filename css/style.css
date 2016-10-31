@@ -1,0 +1,69 @@
+/*мои стили*/
+
+a{
+  text-decoration: none;
+}
+
+header{
+  position: relative;
+}
+
+/*---шапка---*/
+header{
+  height: 390px;
+  background-color: #fff;
+}
+
+/*ширина сайта*/
+.w995{
+  width: 995px;
+  margin: 0 auto;
+}
+
+/*===Верхняя часть шапки===*/
+.header1{
+  height: 340px;
+  background-image: url(../img/bg-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*===1 линия шапки===*/
+.line-top-1 a{
+  height: 65px;
+  line-height: 65px;
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+}
+
+/*меню 1*/
+.top1{
+  display: inline;
+  text-align: left;
+  margin-left: 190px;
+}
+
+.top1 li{
+  display: inline;
+  margin-right: 40px;
+}
+
+.top1 li:last-child{
+  margin-right: 0;
+}
+
+/*кнопки входа*/
+
+.sign-in{
+  float: right;
+}
+
+.sign-in a{
+  margin-left: 20px;
+}
+
+.sign-in a:first-child{
+margin-left: 0;
+}
