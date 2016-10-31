@@ -1,69 +1,212 @@
 /*мои стили*/
 
-a{
-  text-decoration: none;
+body * {
+    font-family: Arial, sans-serif;
 }
 
-header{
-  position: relative;
+a {
+    text-decoration: none;
 }
+
+header {
+    position: relative;
+}
+
+
+/*хак для float*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*Убрал маркеры всех списков*/
+
+li {
+    list-style: none;
+}
+
 
 /*---шапка---*/
-header{
-  height: 390px;
-  background-color: #fff;
+
+header {
+    height: 390px;
+    background-color: #fff;
 }
+
 
 /*ширина сайта*/
-.w995{
-  width: 995px;
-  margin: 0 auto;
+
+.w995 {
+    width: 995px;
+    margin: 0 auto;
+    outline: 1px solid #000;
 }
+
 
 /*===Верхняя часть шапки===*/
-.header1{
-  height: 340px;
-  background-image: url(../img/bg-header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.header1 {
+    height: 340px;
+    background-image: url(../img/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 /*===1 линия шапки===*/
-.line-top-1 a{
-  height: 65px;
-  line-height: 65px;
-  font-size: 11px;
-  font-family: "Arial";
-  color: rgb( 255, 255, 255 );
-  text-transform: uppercase;
+
+.line-top-1 a {
+    height: 65px;
+    line-height: 65px;
+    font-size: 11px;
+    color: rgb( 255, 255, 255);
+    text-transform: uppercase;
 }
+
 
 /*меню 1*/
-.top1{
-  display: inline;
-  text-align: left;
-  margin-left: 190px;
+
+.top1 {
+    display: inline;
+    text-align: left;
+    margin-left: 190px;
 }
 
-.top1 li{
-  display: inline;
-  margin-right: 40px;
+.top1 li {
+    display: inline;
+    margin-right: 40px;
 }
 
-.top1 li:last-child{
-  margin-right: 0;
+.top1 li:last-child {
+    margin-right: 0;
 }
+
 
 /*кнопки входа*/
 
-.sign-in{
-  float: right;
+.sign-in {
+    float: right;
 }
 
-.sign-in a{
-  margin-left: 20px;
+.sign-in a {
+    margin-left: 20px;
 }
 
-.sign-in a:first-child{
-margin-left: 0;
+.sign-in a:first-child {
+    margin-left: 0;
+}
+
+
+/*регистрация*/
+
+.register {
+    background-image: url(../img/register.png);
+    background-repeat: no-repeat;
+    padding-left: 17px;
+}
+
+
+/*===line-top-2===*/
+
+.line-top-2 {
+    height: 130px;
+}
+
+
+/*блок логотипа*/
+
+.logo-div {
+    background-color: #fff;
+    height: 130px;
+    width: 995px;
+    float: left;
+    text-align: right;
+    margin-left: -800px;
+}
+
+
+/*картинка лого*/
+
+.logo-div img {
+    width: 162px;
+    height: 86px;
+    margin-top: 27px;
+    margin-right: 36px;
+}
+
+
+/*контейнер для поиска*/
+
+.poisk-div {
+    float: right;
+    height: 130px;
+    width: 800px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+/*поисковая форма*/
+
+.poisk-form {
+    margin: auto;
+    height: 46px;
+    line-height: 46px;
+    font-size: 0;
+    padding-left: 70px;
+    background-image: url(../img/zoom.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.poisk-form input {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: inherit;
+    ;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: rgb(111, 111, 111);
+    text-align: left;
+    padding-left: 18px;
+}
+
+.poisk-form button {
+    display: inline-block;
+    vertical-align: top;
+    width: 143px;
+    height: inherit;
+    border: none;
+    margin: 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #ffd906;
+    cursor: pointer;
+}
+
+/*строка под поиском*/
+.poisk-primer{
+  position: absolute;
+  bottom: -20px;
+  left: 70px;
+  font-size: 16px;
+  color: rgba(212, 212, 212, 0.502);
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: lowercase;
 }
