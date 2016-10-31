@@ -97,6 +97,7 @@ header {
 
 .sign-in a {
     margin-left: 20px;
+    color: #fff;
 }
 
 .sign-in a:first-child {
@@ -346,11 +347,87 @@ footer{
 }
 
 .footer1{
-  height: 250px;
+  height: 170px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background-color: #071424;
+  position: relative;
+}
+
+.footer1 .w995{
+  height: 170px;
+  position: relative;
 }
 
 .footer2{
   height: 40px;
   background-color: #00050b;
+}
+
+/*стиль списка*/
+.footer-ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-ul li{
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.footer-ul li:last-child{
+  margin-bottom: 0;
+}
+
+.footer-ul li a{
+  font-size: 11px;
+  color: #fff;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-ul li a:hover{
+  color: #ffd906;
+}
+
+/*войти в футере*/
+.f-sign-in{
+position: absolute;
+left:0;
+bottom: 0;
+}
+
+/*2 меню в футере(правее которое)*/
+.f-ul-2{
+  position: absolute;
+  left: 276px;
+/*   top:50px; */
+}
+
+.footer-poisk{
+  position:absolute;
+  top: 55px;
+  right:0
+}
+
+
+/*значки социалок*/
+.soc-seti{
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.soc-seti a{
+  color: #fff;
+  cursor: pointer;
+}
+/*---footer2 нижний---*/
+.footer2 .w995 span{
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  text-align: left;
 }
