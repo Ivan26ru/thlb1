@@ -201,82 +201,142 @@ header {
     cursor: pointer;
 }
 
+
 /*строка под поиском*/
-.poisk-primer{
-  position: absolute;
-  bottom: -20px;
-  left: 70px;
-  font-size: 16px;
-  color: rgba(212, 212, 212, 0.502);
-  text-decoration: underline;
-  line-height: 1.2;
-  text-align: left;
-  text-transform: lowercase;
+
+.poisk-primer {
+    position: absolute;
+    bottom: -20px;
+    left: 70px;
+    font-size: 16px;
+    color: rgba(212, 212, 212, 0.502);
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: lowercase;
 }
+
 
 /*===третья строка===*/
+
 .line-top-3 {
-  margin-top: 14px;
-  display: flex;
-  align-items: stretch;
+    margin-top: 14px;
+    display: flex;
+    align-items: stretch;
 }
 
-
-.line-top-3 a{
-  width: 194px;
-  height: 109px;
-  padding-top: 20px;
-  font-size: 16px;
-  color: rgb(254, 254, 254);
-  line-height: 1.2;
-  text-align: center;
-  cursor: pointer;
+.line-top-3 a {
+    width: 194px;
+    height: 109px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(254, 254, 254);
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
 }
 
-.line-top-3 a:hover{
-  background-color: rgba(255, 255, 255, 0.149);
+.line-top-3 a:hover {
+    background-color: rgba(255, 255, 255, 0.149);
 }
 
-.line-top-3 a span{
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  display: inline-block;
+.line-top-3 a span {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
 }
 
-.line-top-3 a span img{
-  display: inline;
-  vertical-align: middle;
+.line-top-3 a span img {
+    display: inline;
+    vertical-align: middle;
 }
+
 
 /*===нижняя часть шапки(белая полоска)===*/
-.header2{
-  background-color: #fff;
-  height: 43px;
-  font-size: 16px;
-  line-height: 43px;
-  text-align: left;
-  text-transform: lowercase;
+
+.header2 {
+    background-color: #fff;
+    height: 43px;
+    font-size: 16px;
+    line-height: 43px;
+    text-align: left;
+    text-transform: lowercase;
 }
 
-.header2 span{
-  color: #606060;
-  float: left;
+.header2 span {
+    color: #606060;
+    float: left;
 }
 
-.header2 ul{
-  margin: 0;
+.header2 ul {
+    margin: 0;
 }
 
-.header2 li{
-display: inline-block;
-height: inherit;
-margin-left: 40px;
-}
-.header2 a{
-  color: #000
+.header2 li {
+    display: inline-block;
+    height: inherit;
+    margin-left: 40px;
 }
 
-.header2 a:hover{
-  text-decoration: underline;
+.header2 a {
+    color: #000
+}
+
+.header2 a:hover {
+    text-decoration: underline;
+}
+
+
+/*=========основное содержимое=========*/
+
+.content {
+    background-color: #e5e5e5;
+}
+
+
+/*контейнер блоков*/
+
+.container-block {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+
+/*блок*/
+
+.block {
+    width: 485px;
+    height: 410px;
+    background-color: #fff;
+    margin-bottom: 28px;
+}
+
+/*крайние 2 блока*/
+.block:nth-last-child(1),
+.block:nth-last-child(2){
+  margin-bottom: 0;
+}
+
+/*картинка в блоке*/
+.block img {
+    width: 485px;
+}
+
+/*текст в блоке*/
+.block-text {
+    margin: 46px 41px 0 41px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*заголовок в блоке*/
+.block-title {
+    font-weight: 900;
+    text-transform: uppercase;
 }
