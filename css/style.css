@@ -340,3 +340,17 @@ header {
     font-weight: 900;
     text-transform: uppercase;
 }
+/*---------footer------------*/
+footer{
+  height: 290px;
+}
+
+.footer1{
+  height: 250px;
+  background-color: #071424;
+}
+
+.footer2{
+  height: 40px;
+  background-color: #00050b;
+}
