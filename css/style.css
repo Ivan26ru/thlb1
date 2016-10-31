@@ -213,3 +213,70 @@ header {
   text-align: left;
   text-transform: lowercase;
 }
+
+/*===третья строка===*/
+.line-top-3 {
+  margin-top: 14px;
+  display: flex;
+  align-items: stretch;
+}
+
+
+.line-top-3 a{
+  width: 194px;
+  height: 109px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: rgb(254, 254, 254);
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.line-top-3 a:hover{
+  background-color: rgba(255, 255, 255, 0.149);
+}
+
+.line-top-3 a span{
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+}
+
+.line-top-3 a span img{
+  display: inline;
+  vertical-align: middle;
+}
+
+/*===нижняя часть шапки(белая полоска)===*/
+.header2{
+  background-color: #fff;
+  height: 43px;
+  font-size: 16px;
+  line-height: 43px;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+.header2 span{
+  color: #606060;
+  float: left;
+}
+
+.header2 ul{
+  margin: 0;
+}
+
+.header2 li{
+display: inline-block;
+height: inherit;
+margin-left: 40px;
+}
+.header2 a{
+  color: #000
+}
+
+.header2 a:hover{
+  text-decoration: underline;
+}
