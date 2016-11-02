@@ -4,6 +4,10 @@ body * {
     font-family: Arial, sans-serif;
 }
 
+.dn{
+  display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -552,7 +556,7 @@ h1 span{
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 554px;
+  width: 553px;
   height: 50px;
 }
 
