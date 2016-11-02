@@ -549,6 +549,7 @@ footer {
 }
 
 .small-img-container {
+    width: 390px;
     height: inherit;
     display: flex;
     justify-content: space-between;
@@ -672,6 +673,7 @@ h1 span {
 }
 
 .table-tab1 th {
+    padding-left: 30px;
     background-color: #36465a;
     color: #fff;
 }
@@ -1018,3 +1020,21 @@ select {
   background-position:98%;
 }
 
+/*--------слайдер-------*/
+.slick-prev:before{
+    content:"‹";
+    font-size:50px;
+    color:black;
+    /* position: absolute; */
+    top: -50px;
+    position: absolute;
+}
+
+.slick-next:before{
+    content:"›";
+    font-size:50px;
+    color:black;
+    /* position: absolute; */
+    top: -50px;
+    position: absolute;
+}
