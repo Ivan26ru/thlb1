@@ -744,7 +744,40 @@ margin-top: 88px;
   margin-top: 12px;
 }
 
-.use-name{
+.use-block .use-name{
   margin-top: 6px;
   font-weight: 800;
+  font-style:normal; ;
+}
+
+/*блок устройств(жестких дисков)*/
+.container-string-device{
+  margin-top: 90px;
+  background-color: #fff;
+  height: 227px;
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+
+.container-string-device .w995{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*общие стили для текста*/
+.device-block p{
+  margin: 0;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+/*название устройства*/
+.device-block .device-name{
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+.device-block .device-type{
+  margin-top: 12px;
 }
